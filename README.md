@@ -12,8 +12,8 @@ either express or implied.
 See the License for the specific language governing permissions and limitations under the License.
 
 
-## VIM syntax hilighting for Apama EPL
-The file [monitorscript.vim](monitorscript.vim) contains syntax hilighting
+## VIM syntax highlighting for Apama EPL
+The file [monitorscript.vim](monitorscript.vim) contains syntax highlighting
 rules for editing Apama EPL (.mon) files in the VIM editor.
 
 To install the syntax rules, copy the file to $HOME/.vim/syntax/monitorscript.vim 
@@ -23,8 +23,8 @@ au BufRead,BufNewFile *.mon set filetype=monitorscript
 au BufRead,BufNewFile *.evt set filetype=monitorscript
 
 
-## EMACS syntax hilighting for Apama EPL
-The file [monitorscript.el](monitorscript.el) contains syntax hilighting 
+## EMACS syntax highlighting for Apama EPL
+The file [monitorscript.el](monitorscript.el) contains syntax highlighting 
 rules for editing Apama EPL (.mon) files in the EMACS editor.
 
 To install the syntax rules, copy the file to $HOME/.emacs.d/monitorscript.el
