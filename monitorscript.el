@@ -20,8 +20,8 @@
 (add-to-list 'auto-mode-alist '("\\.evt\\'" . ApamaEPL-mode))
 
 ;; define several class of keywords
-(setq ApamaEPL-keywords '("as" "on" "all" "persistent" "action" "wait" "return" "monitor" "event" "import" "returns" "route" "emit" "to" "wildcard" "spawn" "die" "enqueue" "at" "in" "within" "unmatched" "completed" "currentTime" "from" "select" "in" "retain" "within" "partition" "by" "join" "in" "where" "group" "having" "rstream" "aggregate" "every" "with" "unique" "largest" "smallest" "bounded" "unbounded" "constant" "send" "static") )
-(setq ApamaEPL-types '("float" "integer" "string" "decimal" "boolean" "sequence" "dictionary" "stream" "location" "any" "chunk" "listener" "context"))
+(setq ApamaEPL-keywords '("as" "on" "all" "persistent" "action" "wait" "return" "monitor" "event" "import" "returns" "route" "emit" "to" "wildcard" "spawn" "die" "enqueue" "at" "within" "unmatched" "completed" "currentTime" "from" "select" "retain" "partition" "by" "join" "in" "where" "group" "having" "rstream" "aggregate" "every" "with" "unique" "bounded" "unbounded" "constant" "send" "static") )
+(setq ApamaEPL-types '("float" "integer" "string" "decimal" "boolean" "sequence" "dictionary" "stream" "location" "any" "chunk" "listener" "context" "optional"))
 (setq ApamaEPL-builtins '("new" "not" "and" "xor" "equals" "or"))
 (setq ApamaEPL-constants '("true" "false"))
 (setq ApamaEPL-events '("package" "using"))

@@ -24,7 +24,7 @@ syn case ignore
 " Keywords:
 syn keyword msExternal  	package
 syn keyword msBoolean  		false true
-syn keyword msStatement		as on all action wait return monitor event import returns route emit to wildcard spawn die send enqueue print log at in within unmatched completed currentTime from select in using retain within partition by join in where group having rstream aggregate every with unique largest smallest bounded unbounded constant try catch static throw
+syn keyword msStatement		as on all action wait return monitor event import returns route emit to wildcard spawn die send enqueue print log at in unmatched completed currentTime from select using retain within partition by join where group having rstream aggregate every with unique bounded unbounded constant try catch static throw
 syn keyword msOperator  	new not and xor equals or
 syn keyword msRepeat		while for break continue
 syn keyword msConditional	if then else ifpresent switch case default
