@@ -2,7 +2,7 @@
 
 ## License
 
-Copyright (c) 2019 Software AG, Darmstadt, Germany and/or its licensors
+Copyright (c) 2019-2020 Software AG, Darmstadt, Germany and/or its licensors
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this
 file except in compliance with the License. You may obtain a copy of the License at
@@ -25,6 +25,8 @@ and add the following lines to **$HOME/.vim/filetype.vim**
 
     au BufRead,BufNewFile *.mon set filetype=monitorscript
     au BufRead,BufNewFile *.evt set filetype=monitorscript
+
+On windows these files are under **%USERPROFILE%\vimfiles** instead of **$HOME/.vim**.
 
 ## EMACS syntax highlighting for Apama EPL
 
