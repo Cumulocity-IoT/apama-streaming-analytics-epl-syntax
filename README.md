@@ -2,7 +2,7 @@
 
 ## License
 
-Copyright (c) 2019-2020 Cumulocity GmbH
+Copyright (c) 2013-2024 Cumulocity GmbH, Duesseldorf, Germany and/or its affiliates and/or their licensors.
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this
 file except in compliance with the License. You may obtain a copy of the License at
@@ -41,6 +41,7 @@ and add the following lines to $HOME/.emacs
 
 
 ______________________
-These tools are provided as-is and without warranty or support. They do not constitute part of the Cumulocity products. Users are free to use, fork and modify them, subject to the license agreement. While Cumulocity welcomes contributions, we cannot guarantee to include every contribution in the main project.
-_____________
-Contact us at https://apamacommunity.com if you have any questions.
+These tools are provided as-is and without warranty or support. They do not constitute part of the product suite. Users are free to use, fork and modify them, subject to the license agreement. While we welcome contributions, we cannot guarantee to include every contribution in the master project.	
+___________________
+
+You can find additional information and ask questions in the [Apama Community](https://apamacommunity.com).
